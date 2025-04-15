@@ -48,18 +48,18 @@ def calculate_h_out_py(T_wall_outer_K, T_ambient_K, epsilon_outer, sigma, L_char
 # --- Parameters ---
 params = {
   # --- Temperatures ---
-  "T_wall_start_K": 1005.3722222222221,       # USER INPUT - Change according to requirements (Initial Wall Temp K)
-  "T_wall_target1_K": 1372.0388888888888,     # USER INPUT - Change according to requirements (~2010 F - Avg Inner)
-  "T_wall_target2_K": 1422.0388888888888,     # USER INPUT - Change according to requirements (~2100 F - Avg Inner)
-  "T_gas_original_K": 1258.8249999999998,     # USER INPUT - Change according to requirements (~1806 F)
+  "T_wall_start_K": 1005.37,       # USER INPUT - Change according to requirements (Initial Wall Temp K)
+  "T_wall_target1_K": 1372.04,     # USER INPUT - Change according to requirements (~2010 F - Avg Inner)
+  "T_wall_target2_K": 1422.04,     # USER INPUT - Change according to requirements (~2100 F - Avg Inner)
+  "T_gas_original_K": 1258.825,     # USER INPUT - Change according to requirements (~1806 F)
   "T_ambient_K": 298.15,                      # USER INPUT - Change according to requirements
   # --- Geometry & Mass (Derived) ---
-  "A_inner_total_m2": 34.98648712421236,      # Derived (Flux)
-  "A_outer_total_m2": 42.95377026546754,      # Derived (Ref)
-  "Mass_refractory_kg": 26094.113670727387,    # Derived (Ref)
+  "A_inner_total_m2": 34.9865,      # Derived (Flux)
+  "A_outer_total_m2": 42.9538,      # Derived (Ref)
+  "Mass_refractory_kg": 26094.114,    # Derived (Ref)
   "thickness_m": 0.2286,                     # Derived
-  "D_inner_mean_m": 2.2885400000000002,     # Derived (Also L_char_top)
-  "H_m": 4.39674,                           # Derived (Height, L_char_side)
+  "D_inner_mean_m": 2.2885,     # Derived (Also L_char_top)
+  "H_m": 4.397,                           # Derived (Height, L_char_side)
   # --- Material Properties ---
   "Cp_refractory_J_kgK": 910.0,              # USER INPUT - Change according to requirements
   "k_refractory_W_mK": 1.75,               # USER INPUT - Change according to requirements
@@ -68,8 +68,8 @@ params = {
   "epsilon_wall_outer": 0.7,               # ASSUMPTION - Change according to requirements
   # --- Gas Properties (User provided) ---
   "gas_k_W_mK": 0.0454,                   # USER INPUT - Change according to requirements
-  "Pr": 0.5369252775330396,                # USER INPUT - Change according to requirements
-  "Re": 5058684.615348837,                 # USER INPUT - Change according to requirements
+  "Pr": 0.5369253,                # USER INPUT - Change according to requirements
+  "Re": 5058684.61535,                 # USER INPUT - Change according to requirements
   "epsilon_gas_est": 0.15,                # ASSUMPTION - Change according to requirements
   # --- Constants ---
   "sigma": 5.67e-08
